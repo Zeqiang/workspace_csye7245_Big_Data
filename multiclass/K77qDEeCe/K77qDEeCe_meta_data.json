@@ -1,0 +1,40 @@
+{
+    "run_id": "K77qDEeCe",
+    "start_time": 1539213787.812379,
+    "target": "num",
+    "max_models": 9,
+    "run_time": 333,
+    "classification": true,
+    "project": "Muticlass_classification",
+    "end_time": 1539214167.9307609,
+    "execution_time": 380.1183819770813,
+    "nthreads": 1,
+    "min_mem_size": 6,
+    "variables": {
+        "age": "int",
+        "sex": "enum",
+        "cp": "enum",
+        "trestbps": "int",
+        "chol": "int",
+        "fbs": "enum",
+        "restecg": "enum",
+        "thalach": "int",
+        "exang": "enum",
+        "oldpeak": "real",
+        "slope": "enum",
+        "ca": "int",
+        "thal": "enum",
+        "num": "enum"
+    },
+    "model_execution_time": 363.39652705192566,
+    "mod_best": "DeepLearning_grid_0_AutoML_20181010_192309_model_4",
+    "mod_best_algo": "deeplearning",
+    "models": [
+        "GBM_grid_0_AutoML_20181010_192309_model_10",
+        "GLM_grid_0_AutoML_20181010_192309_model_0",
+        "DRF_0_AutoML_20181010_192309",
+        "XRT_0_AutoML_20181010_192309",
+        "DeepLearning_grid_0_AutoML_20181010_192309_model_4",
+        "StackedEnsemble_BestOfFamily_0_AutoML_20181010_192309"
+    ]
+}

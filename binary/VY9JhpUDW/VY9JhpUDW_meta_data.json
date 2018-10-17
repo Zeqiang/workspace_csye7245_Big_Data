@@ -1,0 +1,40 @@
+{
+    "run_id": "VY9JhpUDW",
+    "start_time": 1539216593.200014,
+    "target": "num",
+    "max_models": 9,
+    "run_time": 333,
+    "classification": true,
+    "project": "Binary_classification",
+    "end_time": 1539216949.406071,
+    "execution_time": 356.2060568332672,
+    "nthreads": 1,
+    "min_mem_size": 6,
+    "variables": {
+        "age": "int",
+        "sex": "enum",
+        "cp": "enum",
+        "trestbps": "int",
+        "chol": "int",
+        "fbs": "enum",
+        "restecg": "enum",
+        "thalach": "int",
+        "exang": "enum",
+        "oldpeak": "real",
+        "slope": "enum",
+        "ca": "int",
+        "thal": "enum",
+        "num": "enum"
+    },
+    "model_execution_time": 337.48416018486023,
+    "mod_best": "GBM_grid_0_AutoML_20181010_200955_model_25",
+    "mod_best_algo": "gbm",
+    "models": [
+        "GBM_grid_0_AutoML_20181010_200955_model_25",
+        "GLM_grid_0_AutoML_20181010_200955_model_0",
+        "DRF_0_AutoML_20181010_200955",
+        "XRT_0_AutoML_20181010_200955",
+        "DeepLearning_grid_0_AutoML_20181010_200955_model_0",
+        "StackedEnsemble_BestOfFamily_0_AutoML_20181010_200955"
+    ]
+}

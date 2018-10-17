@@ -1,0 +1,11 @@
+{
+    "mse": 0.13581572624656094,
+    "rmse": 0.36853185241788927,
+    "null_degrees_of_freedom": null,
+    "residual_degrees_of_freedom": null,
+    "residual_deviance": null,
+    "null_deviance": null,
+    "logloss": 0.4186467705178935,
+    "auc": 0.8911564625850341,
+    "gini": 0.7823129251700682
+}
